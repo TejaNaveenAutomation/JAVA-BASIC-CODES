@@ -19,7 +19,9 @@ public class swapingTwoNumbers {
 		
 		System.out.println("after swaping the numbers: "+a+" "+b);
 		
-
+                /************************/
+		// arthmatic operations
+		/************************
 		
 		 Scanner input = new Scanner(System.in);
 
@@ -54,16 +56,12 @@ public class swapingTwoNumbers {
 
 	        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
 	       */
-		try {
-		    int result = 10 / 0; // This will throw an ArithmeticException
-		} catch (ArithmeticException e) {
-		    System.out.println("An error occurred: " + e.getMessage());
-		} finally {
-		    System.out.println("Cleanup tasks are being performed.");
-		}
 		
+		/************************/
+		// removing particular letters or words
+		/************************/
 		
-		 String s = "pr3ep21ins0ta";
+		String s = "pr3ep21ins0ta";
 	        String s1 = "";
 	        s1 = s.replaceAll("[aeiou01234]", ""); 
 	        System.out.println("String after removing vowel : "+s1); 
